@@ -20,6 +20,7 @@
   /* padding: 30px 80px 40px; */
   position: relative;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .header__content {
@@ -33,7 +34,7 @@
   padding-top: 183px;
 }
 
-.header .nav {
+.header-top {
   display: flex;
   justify-content: space-between;
 }
