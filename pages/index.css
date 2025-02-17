@@ -3,7 +3,7 @@
   max-width: 1600px;
   margin: 0 auto;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -26,15 +26,16 @@
   justify-content: space-between;
 }
 
-.header__content {
+/* .header__content {
   display: flex;
   justify-content: space-between;
   padding-left: 80px;
-}
+} */
 
 .header__title {
   max-width: 709px;
   padding-top: 183px;
+  padding-left: 80px;
 }
 
 .nav {
@@ -98,6 +99,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
+  padding-left: 80px;
 }
 
 .header__footer {
