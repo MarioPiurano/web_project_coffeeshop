@@ -86,7 +86,7 @@
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks.
           </h3>
-          <div class="recipes__videos videos">
+          <div class="recipes__videos">
             <div class="recipes__video-item">
               <iframe
                 class="recipes__iframe"
@@ -117,7 +117,73 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__set">
+              <label for="name" class="form__name form__label">Nombre*</label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nombre"
+                class="form__item form__item_el_name"
+              />
+              <br />
+              <label for="comensales" class="form__label"
+                >Número de comensales*</label
+              >
+
+              <input
+                type="number"
+                id="comensales"
+                name="comensales"
+                placeholder="1-8"
+                class="form__item form__item_el_number"
+              />
+              <br />
+              <label for="fecha" class="form__label">Fecha y hora*</label>
+
+              <input
+                type="datetime-local"
+                id="fecha"
+                name="fecha"
+                placeholder="dd/mm/aaaa"
+                class="form__item form__item_el_datetime"
+              />
+              <br />
+              <label for="email" class="form__label"
+                >Tu correo electrónico*</label
+              >
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                class="form__item form__item_el_email"
+              />
+            </fieldset>
+
+            <fieldset>
+              <button type="submit" class="button">Reservar una mesa</button>
+            </fieldset>
+
+            <br />
+            <fieldset class="TYC-checkbox">
+              <label class="checkbox-label">
+                <input
+                  type="checkbox"
+                  name="terminos"
+                  id="terminos"
+                  class="form__checkbox"
+                />
+                Acepto los términos de uso
+              </label>
+            </fieldset>
+          </form>
+        </section>
       </main>
 
       <footer class="footer"></footer>

@@ -180,7 +180,7 @@
   padding-top: 80px;
 }
 
-.iframe {
+.recipes__iframe {
   border: none;
   width: 480px;
   height: 273px;
@@ -195,4 +195,108 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  background-image: url("../images/background_reservation.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d9e7ff;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  text-align: center;
+  margin: 0%;
+}
+
+.reservation__form {
+  max-width: 385px;
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  border-style: none;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  /* display: block; */
+}
+
+.form__set {
+  border-style: none;
+  padding: 0 0 32px;
+  margin: 0%;
+  /* display: block; */
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0%;
+  padding-top: 32px;
+}
+
+.form__item {
+  line-height: 60px;
+  padding-left: 20px;
+  display: block;
+}
+
+.form__item [type="text"] {
+}
+
+.form__name {
+  /* padding-top: 80px; */
+  margin: 0%;
+}
+
+.form__item_el_name {
+  display: block;
+  margin-top: 8px;
+  margin: 0%;
+}
+
+.form__paxs-number {
+  padding-top: 32px;
+  display: block;
+  margin: 0%;
+}
+/*
+.form__label::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+} */
+
+.checkbox__label {
+  /* padding-bottom: 120px; */
+}
+
+.button {
+  /* line-height: 60px; */
+  max-width: 385px;
+  display: block;
+  /* maring-top: 32px; */
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
