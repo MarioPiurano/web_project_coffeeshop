@@ -149,7 +149,6 @@
                 type="datetime-local"
                 id="fecha"
                 name="fecha"
-                placeholder="dd/mm/aaaa"
                 class="form__item form__item_el_datetime"
               />
               <br />
@@ -165,23 +164,19 @@
                 class="form__item form__item_el_email"
               />
             </fieldset>
-
-            <fieldset>
-              <button type="submit" class="button">Reservar una mesa</button>
-            </fieldset>
+            <button type="submit" class="button">Reservar una mesa</button>
 
             <br />
-            <fieldset class="TYC-checkbox">
-              <label class="checkbox-label">
-                <input
-                  type="checkbox"
-                  name="terminos"
-                  id="terminos"
-                  class="form__checkbox"
-                />
-                Acepto los términos de uso
-              </label>
-            </fieldset>
+            <label for="checkbox" class="form__label form__label-checkbox">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+                class="form__checkbox"
+              />
+              <!-- <span class="form__checkbox-icon"></span> -->
+              <span>Acepto los términos de uso</span>
+            </label>
           </form>
         </section>
       </main>
