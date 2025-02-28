@@ -216,9 +216,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   text-align: center;
-  margin: 0%;
+  margin: 100px 0 80px;
 }
 
 .reservation__form {
@@ -227,7 +227,7 @@
   justify-content: center;
   flex-direction: column;
   border-style: none;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   padding-bottom: 120px;
   /* display: block; */
 }
