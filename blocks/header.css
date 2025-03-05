@@ -39,7 +39,7 @@
   padding-left: 80px;
 }
 
-.accent {
+.header__title-linea1 {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -48,7 +48,7 @@
   color: #2f80ed;
 }
 
-.linea-2 {
+.header__title-linea2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -70,14 +70,14 @@
   color: #838383;
 }
 
-.footer-timetable {
+.header-timetable {
   margin: 0 auto;
   position: absolute;
   bottom: 40px;
   left: 80px;
 }
 
-.footer-address {
+.header-address {
   position: absolute;
   bottom: 40px;
   right: 80px;
